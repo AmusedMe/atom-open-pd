@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-open-pd",
+        "command": "atom-open-pd:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-open-pd",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-open-pd:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
